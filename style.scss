@@ -36,6 +36,7 @@ h2 {
 .main-nav {
   background: #eee;
   padding: 10px;
+  overflow: scroll;
   .inner {
     display: flex;
     justify-content: space-between;
@@ -65,6 +66,9 @@ h2 {
     a {
       text-decoration: none;
     }
+  }
+  @media (max-width: 768px) {
+    justify-content: space-between;
   }
 }
 
